@@ -1,0 +1,10 @@
+substitutions:
+  can_tx_pin: GPIO26
+  can_rx_pin: GPIO32
+  
+esp32:
+  board: m5stack-atom
+  framework:
+    type: esp-idf
+    version: 5.1.2
+    platform_version: 6.5.0
