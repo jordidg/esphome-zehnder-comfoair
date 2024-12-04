@@ -1,0 +1,13 @@
+{
+  "chipFamily": "ESP32-S3",
+  "ota": {
+    "path": "zehnder-comfoair-q-esp32s3/zehnder-comfoair-q-esp32s3.ota.bin",
+    "md5": "fbeedaeb0a852d8b8e11d2d0b2bb0c0d"
+  },
+  "parts": [
+    {
+      "path": "zehnder-comfoair-q-esp32s3/zehnder-comfoair-q-esp32s3.factory.bin",
+      "offset": 0
+    }
+  ]
+}

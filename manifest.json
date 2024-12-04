@@ -1,0 +1,47 @@
+{
+  "name": "Zehnder ComfoAir Q",
+  "version": "2024.8.0",
+  "home_assistant_domain": "esphome",
+  "new_install_skip_erase": false,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "ota": {
+        "path": "zehnder-comfoair-q-esp32/zehnder-comfoair-q-esp32.ota.bin",
+        "md5": "db39bbb7bb651230ea7b5cfb8b33d41f"
+      },
+      "parts": [
+        {
+          "path": "zehnder-comfoair-q-esp32/zehnder-comfoair-q-esp32.factory.bin",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "chipFamily": "ESP32-C6",
+      "ota": {
+        "path": "zehnder-comfoair-q-esp32c6/zehnder-comfoair-q-esp32c6.ota.bin",
+        "md5": "093739539232d377fc9972da4592c0d4"
+      },
+      "parts": [
+        {
+          "path": "zehnder-comfoair-q-esp32c6/zehnder-comfoair-q-esp32c6.factory.bin",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "chipFamily": "ESP32-S3",
+      "ota": {
+        "path": "zehnder-comfoair-q-esp32s3/zehnder-comfoair-q-esp32s3.ota.bin",
+        "md5": "fbeedaeb0a852d8b8e11d2d0b2bb0c0d"
+      },
+      "parts": [
+        {
+          "path": "zehnder-comfoair-q-esp32s3/zehnder-comfoair-q-esp32s3.factory.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
